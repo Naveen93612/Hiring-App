@@ -1,0 +1,9 @@
+#!/bin/bash
+#to chech wheather the directory exits
+if [ -e ~/Desktop/saveen ];
+then 
+    echo "file exits"
+else
+    echo "file does not exit"
+fi
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+#To check weather the file regular 
+if [ -f ~/Desktop/saveen/file_tocheckregular ];
+then
+   echo "file is regular"
+else 
+   echo "file is not regular"
+fi

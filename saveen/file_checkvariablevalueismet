@@ -1,0 +1,9 @@
+#!/bin/bash
+a='date | awk {print $1}'
+
+if [ "$a" == Mon ] 
+then
+    echo "today is $a"
+else 
+    echo "today is not monday"
+fi
